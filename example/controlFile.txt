@@ -1,0 +1,36 @@
+inputGrid grid_input.vtk
+outputName output
+maxIter 40000
+saveIter 500
+initTime 225
+finalTime 1693
+timeStep 1.0
+maxSide 11.550000
+voronoiSide 120
+
+dScale 0.75
+
+# RD solver parameters :
+
+gdt 2.898430
+gParam0 1.054000
+gParam1 0.005324
+gParam2 229.300000
+cu 0.020000
+cv 0.029679
+cw 0.060000
+c1 -0.040000
+c2 -0.056000
+c3 0.382000
+c4 -0.050000
+c5 0.000000
+c6 0.250000
+c7 0.016000
+c8 -0.030000
+c9 0.240000
+maxF 0.500000
+maxG 0.500000
+maxH 0.500000
+Du 0.1
+Dv 0.1
+Dw 20
