@@ -10,18 +10,25 @@ RD-Curvilinear is a GPU-based finite-difference implementation used to simulate 
 ## Files:
 
 build folder:
+
 	`RD_Curvilinear`
+	
 example folder:
+
 	Contains data for test examples below.
 
 ## Requirements:
 
 NVIDIA graphics cards (compute capabilities > 3.0)
+
 Linux operating system
 
 ## Run:
 
 To run the test example type :
+
 	`cd example`
+	
 	`../build/RD_Curvilinear controlFile.txt`
+	
 Inital conditions and the intermediate states will be stored as VTK mesh format.
